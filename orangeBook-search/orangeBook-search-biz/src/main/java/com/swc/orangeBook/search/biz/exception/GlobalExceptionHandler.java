@@ -2,7 +2,7 @@ package com.swc.orangeBook.search.biz.exception;
 
 import com.swc.framework.common.exception.BizException;
 import com.swc.framework.common.response.Response;
-import com.swc.orangeBook.search.enums.ResponseCodeEnum;
+import com.swc.orangeBook.search.biz.enums.ResponseCodeEnum;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindingResult;
