@@ -360,6 +360,12 @@
         <artifactId>canal.protocol</artifactId>
         <version>${canal.version}</version>
       </dependency>
+
+      <dependency>
+        <groupId>com.swc</groupId>
+        <artifactId>orangeBook-search-api</artifactId>
+        <version>${revision}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
