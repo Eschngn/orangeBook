@@ -2,6 +2,7 @@ package com.swc.orangebook.auth.sms;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 /**
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "aliyun")
 @Component
 @Data
+@RefreshScope
 public class AliyunAccessKeyProperties {
     private String accessKeyId;
     private String accessKeySecret;
