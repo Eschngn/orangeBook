@@ -19,7 +19,7 @@ import java.util.Map;
  * @date 2024/10/13 14:14
  */
 @Component
-@RocketMQMessageListener(consumerGroup = "xiaohashu_group_" + MQConstants.TOPIC_COUNT_FANS_2_DB, // Group 组
+@RocketMQMessageListener(consumerGroup = "xiaochengshu_group_" + MQConstants.TOPIC_COUNT_FANS_2_DB, // Group 组
         topic = MQConstants.TOPIC_COUNT_FANS_2_DB // 主题 Topic
 )
 @Slf4j
